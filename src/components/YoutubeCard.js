@@ -2,25 +2,29 @@ import React from 'react'
 import { View, Text, StyleSheet, Image, Button,Linking } from 'react-native'
 
 const YoutubeCard = () => {
+    const title="THE IDIOTZ"
+    const text="Provides a report on the performance of the The Idiotz channel's subscriber ranking, average views, Super Chat revenue, and paid advertising content."
+    const img=require("../../assets/idiotz.jpg")
+    const link="https://www.youtube.com/c/theidiotz"
     return (
         <View style={styles.mainBox}>
             <View >
-            <Text style={styles.titleBox}>THE IDIOTZ</Text>
+            <Text style={styles.titleBox}>{title}</Text>
 
             </View>
                 <View style={styles.imageBox}>
-                    <Image style={styles.image} source={require("../../assets/idiotz.jpg")} />
+                    <Image style={styles.image} source={img} />
 
                 </View>
                 <View style={styles.textBox}>
-                    <Text>Provides a report on the performance of the The Idiotz channel's subscriber ranking, average views, Super Chat revenue, and paid advertising content.</Text>
+                    <Text>{text}</Text>
 
                 </View>
                 <View >
                     <Button
                      style={styles.buttonBox}
                       title="Watch Now"
-                      onPress={()=>{Linking.openURL("https://www.youtube.com/c/theidiotz")}}
+                      onPress={()=>{Linking.openURL(link)}}
                        />
 
                 </View>
