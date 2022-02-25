@@ -4,7 +4,9 @@ import { View, Text, StyleSheet, Image, Button,Linking } from 'react-native'
 const YoutubeCard = () => {
     const title="THE IDIOTZ"
     const text="Provides a report on the performance of the The Idiotz channel's subscriber ranking, average views, Super Chat revenue, and paid advertising content."
-    const img=require("../../assets/idiotz.jpg")
+    // by require you can use local machine images and by uri you can use images on internet
+    const img1=require("../../assets/idiotz.jpg")
+    const img2={uri:"https://yt3.ggpht.com/ytc/AKedOLTY9-J-2Yr_stAiOZZ_NtFX-dGIbZe224IWpAwWCQ=s900-c-k-c0x00ffffff-no-rj"}
     const link="https://www.youtube.com/c/theidiotz"
     return (
         <View style={styles.mainBox}>
@@ -13,7 +15,9 @@ const YoutubeCard = () => {
 
             </View>
                 <View style={styles.imageBox}>
-                    <Image style={styles.image} source={img} />
+                    <Image style={styles.image} source={img1} />
+                    {/* <Image style={styles.image} source={img2} /> */}
+
 
                 </View>
                 <View style={styles.textBox}>
@@ -60,7 +64,13 @@ const styles = StyleSheet.create({
         height:500
     },
     titleBox:{
-        fontSize:40
+        fontVariant : ["small-caps"],
+
+        fontSize:40,
+        letterSpacing:3,
+        textShadowOffset:{width:-3,height:4},
+        textShadowRadius:10,
+        textShadowColor:"gray",
     }
 
 
