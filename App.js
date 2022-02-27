@@ -4,6 +4,10 @@ import CustomComponent from "./src/screens/CustomComponent";
 import FilelistComponent from "./src/screens/FilelistComponent";
 import CardDetails from "./src/components/CardDetail";
 import YoutubeCard from "./src/components/YoutubeCard";
+import BoxModel from "./src/components/BoxModel";
+import YoutubeVerticalScrolling from "./src/components/YoutubeVerticalScrolling";
+
+
 const App = () => {
   const name = "Asad Ali Khan"
   return (
@@ -52,8 +56,14 @@ const App = () => {
     // </View>
 
 //Above and Below all commented to get YoutubeCard
-    <YoutubeCard></YoutubeCard>
+    // <YoutubeCard></YoutubeCard>
 
+    // Above and Below all commented to get BoxModel
+    // <BoxModel></BoxModel>
+
+
+    // Above and Below all commented to get YoutubeVerticalScrolling
+    <YoutubeVerticalScrolling></YoutubeVerticalScrolling>
   )
 }
 
