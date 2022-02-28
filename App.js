@@ -6,6 +6,7 @@ import CardDetails from "./src/components/CardDetail";
 import YoutubeCard from "./src/components/YoutubeCard";
 import BoxModel from "./src/components/BoxModel";
 import YoutubeVerticalScrolling from "./src/components/YoutubeVerticalScrolling";
+import FlexBox from "./src/components/FlexBox";
 
 
 const App = () => {
@@ -63,7 +64,10 @@ const App = () => {
 
 
     // Above and Below all commented to get YoutubeVerticalScrolling
-    <YoutubeVerticalScrolling></YoutubeVerticalScrolling>
+    // <YoutubeVerticalScrolling></YoutubeVerticalScrolling>
+
+        // Above and Below all commented to get FlexBox
+        <FlexBox></FlexBox>
   )
 }
 

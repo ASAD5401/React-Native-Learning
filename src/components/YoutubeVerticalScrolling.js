@@ -5,7 +5,7 @@ import YoutubeCardScrolling from './YoutubeCardScrolling'
 const YoutubeVerticalScrolling = () => {
     const data = [{
         index: "1",
-        title: "THE IDIOTZ",
+        title: "The Idiotz",
         text: "Provides a report on the performance of the The Idiotz channel's subscriber ranking, average views, Super Chat revenue, and paid advertising content.",
         img1: "https://yt3.ggpht.com/ytc/AKedOLTY9-J-2Yr_stAiOZZ_NtFX-dGIbZe224IWpAwWCQ=s900-c-k-c0x00ffffff-no-rj",
         link: "https://www.youtube.com/c/theidiotz",
