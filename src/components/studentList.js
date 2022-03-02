@@ -59,7 +59,8 @@ const StudentList = () => {
 }
 const styles = StyleSheet.create({
     main:{
-        backgroundColor:'light-gray'
+        backgroundColor:'light-gray',
+        marginBottom:160
     },
     header:{
         marginTop:20,
@@ -69,7 +70,8 @@ const styles = StyleSheet.create({
         marginBottom:10
     },
     mainContainer: {
-        marginTop: 20
+        marginTop: 20,
+        // marginBottom:,
 
     },
     commonStyle: {
