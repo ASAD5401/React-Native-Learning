@@ -7,6 +7,7 @@ import YoutubeCard from "./src/components/YoutubeCard";
 import BoxModel from "./src/components/BoxModel";
 import YoutubeVerticalScrolling from "./src/components/YoutubeVerticalScrolling";
 import FlexBox from "./src/components/FlexBox";
+import StudentList from "./src/components/studentList";
 
 
 const App = () => {
@@ -17,17 +18,17 @@ const App = () => {
 
     //   <Text style={styles.name}>{name}</Text>
     //   <Text style={styles.decorate}> started learning React Native on 24-Feb-2022</Text>
-      
-      
-      
+
+
+
     //   <CustomComponent></CustomComponent>
-      
-      
-      
+
+
+
     //   <FilelistComponent></FilelistComponent>
-      
-      
-      
+
+
+
     //   <Button
     //     title="SUBSCRIBE"
     //     onPress={() => { Alert.alert("You have subscribed") }}
@@ -56,7 +57,7 @@ const App = () => {
 
     // </View>
 
-//Above and Below all commented to get YoutubeCard
+    //Above and Below all commented to get YoutubeCard
     // <YoutubeCard></YoutubeCard>
 
     // Above and Below all commented to get BoxModel
@@ -66,8 +67,11 @@ const App = () => {
     // Above and Below all commented to get YoutubeVerticalScrolling
     // <YoutubeVerticalScrolling></YoutubeVerticalScrolling>
 
-        // Above and Below all commented to get FlexBox
-        <FlexBox></FlexBox>
+    // Above and Below all commented to get FlexBox
+    // <FlexBox></FlexBox>
+
+    // Above and Below all commented to get StudentList
+    <StudentList></StudentList>
   )
 }
 
@@ -90,8 +94,8 @@ const styles = StyleSheet.create({
     marginBottom: 10
 
   },
-  touchText:{
-    fontSize:30,
+  touchText: {
+    fontSize: 30,
   },
   scroll: {
     marginBottom: 420
